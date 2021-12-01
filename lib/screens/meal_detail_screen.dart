@@ -11,7 +11,7 @@ class MealDetailScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text(meal.title),
       ),
-      body: Center(
+      body: const Center(
         child: Text('Detalhes da Refeição'),
       ),
     );
